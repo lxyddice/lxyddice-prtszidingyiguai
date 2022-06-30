@@ -8,6 +8,14 @@ Begin VB.Form Form1
    LinkTopic       =   "Form1"
    ScaleHeight     =   6795
    ScaleWidth      =   13470
+   Begin VB.CommandButton Command22 
+      Caption         =   "退出"
+      Height          =   495
+      Left            =   12840
+      TabIndex        =   89
+      Top             =   5400
+      Width           =   615
+   End
    Begin VB.CommandButton Command13 
       Caption         =   "技能"
       Height          =   375
@@ -393,6 +401,14 @@ Begin VB.Form Form1
       TabIndex        =   0
       Top             =   120
       Width           =   2775
+   End
+   Begin VB.Label Label38 
+      Caption         =   "vb特性，不要点X，否则会留下进程"
+      Height          =   375
+      Left            =   11280
+      TabIndex        =   90
+      Top             =   3960
+      Width           =   1935
    End
    Begin VB.Label Label37 
       Caption         =   "警告：prts中预览不要点击保存更改（千万不要）"
@@ -830,6 +846,10 @@ End Sub
 
 Private Sub Command21_Click()
 Form3.Show
+End Sub
+
+Private Sub Command22_Click()
+End
 End Sub
 
 Private Sub Command3_Click()
